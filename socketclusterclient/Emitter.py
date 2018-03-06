@@ -16,7 +16,6 @@ class emitter(object):
                 function(key, object)
 
     def haseventack(self, key):
-        # print "return value is "+self.mapack[key]
         # return self.mapack.has_key(key)
         return key in self.mapack
         # return False
@@ -30,5 +29,3 @@ class emitter(object):
     def __init__(self):
         self.map = {}
         self.mapack = {}
-
-        # print "super init got called"
